@@ -17,14 +17,28 @@ Build a robust authentication system for your web applications using Next.js wit
 | 📱 **Responsive Design**                       | Ensure a seamless experience across various devices with Tailwind CSS's responsive utilities. |
 | 🧪 **Testing**                                 | Incorporate unit and integration tests for maintaining code quality and reliability. |
 | 🚢 **CI/CD**                                   | Automate the deployment pipeline for smooth and efficient releases.                |
+| 📡 **GraphQL**                                 | Integrate GraphQL for efficient and flexible data fetching.                          |
+| 📬 **Nodemailer**                              | Use Nodemailer for sending transactional emails, including verification and password reset emails. |
+| 🔄 **Redis Cache**                             | Implement Redis caching to enhance performance by caching frequently accessed data. |
+| ⏱️ **Rate Limiting**                          | Apply rate limiting to prevent abuse and protect your API from potential security threats. |
+| 📊 **MongoDB**                                | Utilize MongoDB as a NoSQL database for storing user data securely.                  |
+| 📜 **Morgan Logs**                            | Implement Morgan for HTTP request logging, aiding in debugging and monitoring.       |
+| 🪵 **Winston Logger**                         | Integrate Winston Logger for structured logging and log management.                  |
+| 📝 **Swagger**                                | Generate API documentation using Swagger for better understanding and integration.   |
+| 📈 **Prometheus**                             | Use Prometheus for monitoring and alerting, gaining insights into your application's performance. |
+| 🌐 **Internationalization**                   | Implement internationalization for multi-language support in your application.       |
+| 🛡️ **Helmet**                                | Enhance security with Helmet by setting various HTTP headers to secure your app against common vulnerabilities. |
+| 🚚 **Docker**                                 | Containerize your application using Docker for consistency and portability across environments. |
+| ✉️ **Express Validator**                      | Use Express Validator for validating and sanitizing user input for enhanced security. |
+| 🃏 **Jest**                                   | Employ Jest for JavaScript testing, ensuring the reliability of your codebase.        |
 
 ## Getting Started
 
 1. **Clone the repository:** `git clone https://github.com/your-username/nextjs-auth-ts-tailwind.git`
 2. **Install dependencies:** `npm install`
-3. **Configure environment variables:** Set up authentication provider details and secrets.
+3. **Configure environment variables:** Set up authentication provider details, database connections, and other necessary configurations.
 4. **Run the development server:** `npm run dev`
-5. **Start building your secure and user-friendly authentication system!**
+5. **Start building your secure and feature-rich authentication system!**
 
 ## Contributing
 
@@ -34,4 +48,4 @@ Contributions are welcome! Feel free to open issues, submit pull requests, and c
 
 This project is licensed under the [MIT License](LICENSE).
 
-Let's build a secure and user-friendly authentication system together! 🚀
+Let's build a secure and feature-rich authentication system together! 🚀
