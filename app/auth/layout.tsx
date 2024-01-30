@@ -20,10 +20,10 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({ children }: AuthLayoutProps) =>
                         <span className="text-2xl text-gray-900 font-semibold">Logo</span>
                     </div>
                     <div className="hidden md:flex space-x-4 text-gray-900">
-                        <a href="#">Dashboard</a>
-                        <a href="#">About</a>
-                        <a href="#">Projects</a>
-                        <a href="#">Contact</a>
+                        <a href="#" className="hover:text-blue-500 hover:scale-105 transition-transform duration-300 transform">Dashboard</a>
+                        <a href="#" className="hover:text-blue-500 hover:scale-105 transition-transform duration-300 transform">About</a>
+                        <a href="#" className="hover:text-blue-500 hover:scale-105 transition-transform duration-300 transform">Projects</a>
+                        <a href="#" className="hover:text-blue-500 hover:scale-105 transition-transform duration-300 transform">Contact</a>
                     </div>
                     <div className="md:hidden">
                         <button onClick={toggleNavbar} className="text-gray-900 focus:outline-none">
@@ -46,10 +46,10 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({ children }: AuthLayoutProps) =>
                         </svg>
                     </button>
                     <div className="flex flex-col items-center mt-10">
-                        <a href="#" className="text-gray-900 py-2">Dashboard</a>
-                        <a href="#" className="text-gray-900 py-2">About</a>
-                        <a href="#" className="text-gray-900 py-2">Projects</a>
-                        <a href="#" className="text-gray-900 py-2">Contact</a>
+                        <a href="#" className="text-gray-900 py-2 hover:text-blue-500 hover:scale-105 transition-transform duration-300 transform">Dashboard</a>
+                        <a href="#" className="text-gray-900 py-2 hover:text-blue-500 hover:scale-105 transition-transform duration-300 transform">About</a>
+                        <a href="#" className="text-gray-900 py-2 hover:text-blue-500 hover:scale-105 transition-transform duration-300 transform">Projects</a>
+                        <a href="#" className="text-gray-900 py-2 hover:text-blue-500 hover:scale-105 transition-transform duration-300 transform">Contact</a>
                     </div>
                 </div>
             </nav>
